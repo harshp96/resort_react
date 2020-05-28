@@ -1,9 +1,5 @@
 {
   "name": "resort",
-<<<<<<< HEAD
-=======
-  "homepage": "http://3.135.225.135:8080/build/",
->>>>>>> 349c67a731c352e2a652e6d30c627bd07cebcbf9
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -15,13 +11,15 @@
     "react-icons": "^3.10.0",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.1",
-    "styled-components": "^5.1.0"
+    "styled-components": "^5.1.0",
+    "webpack": "^2.2.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "production": "webpack -p --progress"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -37,5 +35,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.11"
   }
 }
